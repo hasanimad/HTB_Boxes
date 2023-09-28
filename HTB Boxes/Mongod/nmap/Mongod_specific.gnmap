@@ -1,0 +1,5 @@
+# Nmap 7.80 scan initiated Mon Sep 25 01:14:51 2023 as: nmap -sC -sV -p22,27017 -oA nmap/Mongod_specific -v 10.129.228.30
+# Ports scanned: TCP(2;22,27017) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.228.30 ()	Status: Up
+Host: 10.129.228.30 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)/, 27017/open/tcp//mongodb//MongoDB 3.6.8/
+# Nmap done at Mon Sep 25 01:15:00 2023 -- 1 IP address (1 host up) scanned in 9.12 seconds

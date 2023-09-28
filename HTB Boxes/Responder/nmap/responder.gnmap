@@ -1,0 +1,5 @@
+# Nmap 7.80 scan initiated Mon Sep 25 19:30:42 2023 as: nmap -sV -v -p- --min-rate 300 -oA nmap/responder 10.129.124.120
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.124.120 ()	Status: Up
+Host: 10.129.124.120 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.52 ((Win64) OpenSSL|1.1.1m PHP|8.1.1)/, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: filtered (65533)
+# Nmap done at Mon Sep 25 19:33:11 2023 -- 1 IP address (1 host up) scanned in 149.06 seconds

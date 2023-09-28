@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Mon Sep 25 01:14:51 2023 as: nmap -sC -sV -p22,27017 -oA nmap/Mongod_specific -v 10.129.228.30 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p22,27017 -oA nmap/Mongod_specific -v 10.129.228.30" start="1695593691" startstr="Mon Sep 25 01:14:51 2023" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="2" services="22,27017"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1695593692"/>
+<taskend task="NSE" time="1695593692"/>
+<taskbegin task="NSE" time="1695593692"/>
+<taskend task="NSE" time="1695593692"/>
+<taskbegin task="NSE" time="1695593692"/>
+<taskend task="NSE" time="1695593692"/>
+<taskbegin task="Ping Scan" time="1695593692"/>
+<taskend task="Ping Scan" time="1695593692" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1695593692"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1695593692"/>
+<taskbegin task="Connect Scan" time="1695593692"/>
+<taskend task="Connect Scan" time="1695593692" extrainfo="2 total ports"/>
+<taskbegin task="Service scan" time="1695593692"/>
+<taskend task="Service scan" time="1695593698" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1695593698"/>
+<taskend task="NSE" time="1695593700"/>
+<taskbegin task="NSE" time="1695593700"/>
+<taskend task="NSE" time="1695593700"/>
+<taskbegin task="NSE" time="1695593700"/>
+<taskend task="NSE" time="1695593700"/>
+<host starttime="1695593692" endtime="1695593700"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.129.228.30" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.5" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+<port protocol="tcp" portid="27017"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mongodb" product="MongoDB" version="3.6.8" method="probed" conf="10"><cpe>cpe:/a:mongodb:mongodb:3.6.8</cpe></service><script id="mongodb-databases" output="ERROR: Script execution failed (use -d to debug)"/><script id="mongodb-info" output="ERROR: Script execution failed (use -d to debug)"/></port>
+</ports>
+<times srtt="83604" rttvar="47635" to="274144"/>
+</host>
+<taskbegin task="NSE" time="1695593700"/>
+<taskend task="NSE" time="1695593700"/>
+<taskbegin task="NSE" time="1695593700"/>
+<taskend task="NSE" time="1695593700"/>
+<taskbegin task="NSE" time="1695593700"/>
+<taskend task="NSE" time="1695593700"/>
+<runstats><finished time="1695593700" timestr="Mon Sep 25 01:15:00 2023" elapsed="9.12" summary="Nmap done at Mon Sep 25 01:15:00 2023; 1 IP address (1 host up) scanned in 9.12 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

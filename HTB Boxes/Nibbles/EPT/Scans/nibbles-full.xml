@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Sun Sep 24 00:57:38 2023 as: nmap -sC -sV -v -p- -oA Scans/nibbles-full 10.129.159.4 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -v -p- -oA Scans/nibbles-full 10.129.159.4" start="1695506258" startstr="Sun Sep 24 00:57:38 2023" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1695506258"/>
+<taskend task="NSE" time="1695506258"/>
+<taskbegin task="NSE" time="1695506258"/>
+<taskend task="NSE" time="1695506258"/>
+<taskbegin task="NSE" time="1695506258"/>
+<taskend task="NSE" time="1695506258"/>
+<taskbegin task="Ping Scan" time="1695506258"/>
+<taskend task="Ping Scan" time="1695506258" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1695506258"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1695506258"/>
+<taskbegin task="Connect Scan" time="1695506258"/>
+<taskprogress task="Connect Scan" time="1695506289" percent="2.47" remaining="1226" etc="1695507515"/>
+<taskprogress task="Connect Scan" time="1695506319" percent="6.04" remaining="950" etc="1695507268"/>
+<taskprogress task="Connect Scan" time="1695506586" percent="26.75" remaining="899" etc="1695507484"/>
+<taskprogress task="Connect Scan" time="1695506670" percent="33.05" remaining="835" etc="1695507505"/>

@@ -1,0 +1,12 @@
+# Nmap 7.80 scan initiated Mon Sep 25 19:30:42 2023 as: nmap -sV -v -p- --min-rate 300 -oA nmap/responder 10.129.124.120
+Nmap scan report for 10.129.124.120
+Host is up (0.086s latency).
+Not shown: 65533 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.52 ((Win64) OpenSSL/1.1.1m PHP/8.1.1)
+5985/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 25 19:33:11 2023 -- 1 IP address (1 host up) scanned in 149.06 seconds

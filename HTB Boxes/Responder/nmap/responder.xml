@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Mon Sep 25 19:30:42 2023 as: nmap -sV -v -p- -&#45;min-rate 300 -oA nmap/responder 10.129.124.120 -->
+<nmaprun scanner="nmap" args="nmap -sV -v -p- -&#45;min-rate 300 -oA nmap/responder 10.129.124.120" start="1695659442" startstr="Mon Sep 25 19:30:42 2023" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1695659442"/>
+<taskend task="Ping Scan" time="1695659442" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1695659442"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1695659442"/>
+<taskbegin task="Connect Scan" time="1695659442"/>
+<taskprogress task="Connect Scan" time="1695659473" percent="17.95" remaining="142" etc="1695659615"/>
+<taskprogress task="Connect Scan" time="1695659503" percent="44.28" remaining="77" etc="1695659580"/>
+<taskprogress task="Connect Scan" time="1695659533" percent="65.46" remaining="49" etc="1695659581"/>
+<taskend task="Connect Scan" time="1695659584" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1695659584"/>
+<taskend task="Service scan" time="1695659590" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1695659590"/>
+<taskend task="NSE" time="1695659590"/>
+<taskbegin task="NSE" time="1695659590"/>
+<taskend task="NSE" time="1695659591"/>
+<host starttime="1695659442" endtime="1695659591"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.129.124.120" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-responses" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.52" extrainfo="(Win64) OpenSSL/1.1.1m PHP/8.1.1" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.52</cpe></service></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="85948" rttvar="735" to="100000"/>
+</host>
+<runstats><finished time="1695659591" timestr="Mon Sep 25 19:33:11 2023" elapsed="149.06" summary="Nmap done at Mon Sep 25 19:33:11 2023; 1 IP address (1 host up) scanned in 149.06 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

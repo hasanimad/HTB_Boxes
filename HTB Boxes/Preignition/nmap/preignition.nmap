@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Mon Sep 25 01:03:07 2023 as: nmap -sC -sV -oA nmap/preignition 10.129.109.115
+Nmap scan report for 10.129.109.115
+Host is up (0.088s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.14.2
+|_http-server-header: nginx/1.14.2
+|_http-title: Welcome to nginx!
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 25 01:03:17 2023 -- 1 IP address (1 host up) scanned in 10.01 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon Sep 25 00:57:46 2023 as: nmap -sC -sV -oA nmap/explosion 10.129.82.197
+Host: 10.129.82.197 ()	Status: Up
+Host: 10.129.82.197 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Services/	Ignored State: closed (996)
+# Nmap done at Mon Sep 25 00:58:07 2023 -- 1 IP address (1 host up) scanned in 21.27 seconds

